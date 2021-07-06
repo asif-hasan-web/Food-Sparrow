@@ -3,7 +3,9 @@ body{
     margin: 0;
     color:#2a2a2f;
 }
-
+/* ============
+----SOME COMMON TAG---
+=========*/
 h1 {
     font-size: 34px;
 }
@@ -13,15 +15,18 @@ p{
 section{
     margin: 150px 0;
 }
+
 .text-color{
     color: #29add8;
 }
 .gray-color{
     color: #707070;
 }
+
 small {
     color: #777070;
 }
+
 .flexible{
     display: flex;
 }
@@ -36,6 +41,7 @@ small {
 .width-20{
     width: 20%;
 }
+/* ----header & about area---- */
 .header-area{
     
     background-image:url(image/Frame\ 59.jpg);
@@ -48,7 +54,7 @@ small {
     background-size: contain;
     background-repeat: no-repeat;
 }
-
+/*---- hero & about  area-----*/
 .hero-text h1 {
     font-size: 53px;
     color: #707070;
@@ -76,7 +82,7 @@ small {
     margin-left: 15%;
     background-size: cover;
 }
-
+/*----- button------ */
 .link-btn{
          padding: 15px 35px;
     background-color: #0db2f1;
@@ -89,6 +95,7 @@ small {
         
         background-image: linear-gradient(45deg, #2014dc , #2fe4f7);
 }
+/*---- feathers-area ------*/
 .features-title{
     width: 50%;
     margin: 0 auto;
@@ -121,6 +128,8 @@ small {
     margin-bottom: 0;
     padding-bottom: 19px;
 }
+
+/* ----count area------- */
 .youtube,
 .instagram,
 .dribbble,
@@ -135,7 +144,7 @@ small {
     font-size: 47px;
     margin-bottom: 0;
 }
-
+/*------ footer-area------- */
 .footer-area p{
     text-align: center;
 }
@@ -146,7 +155,7 @@ small {
     padding: 42px 0;
 }
 
-/* form section */
+/*------- form section -------*/
 .subscribe-area {
     margin: auto 6%;
 }
@@ -193,7 +202,7 @@ input.sign-btn:hover {
     border-radius: 16px;
     margin: 36px auto;
 }
-/* Navber */
+/*----- Navber -------*/
 .navbar{
     overflow: hidden;
     margin: 0 5%;
